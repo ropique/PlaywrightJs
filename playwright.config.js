@@ -13,6 +13,8 @@ const config = {
   },
 
   reporter: 'html',
+//   reporter: [["dot"], ["json", { outputFile: "test-result.json" }],
+// ['experimental-allure-playwright']],
   // reporter: "allure-playwright",
 
 

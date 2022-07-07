@@ -5,17 +5,19 @@
   "main": "index.js",
   "scripts": {
     "regression": "npx playwright test",
-    "chromtest" : "npx playwright test  --project=chromium",
-    "usertest" : "npx playwright test  --project=chromium --grep @users",
-    "dictionarytest": "npx playwright test  --project=chromium --grep @dictionary"
+    "chromtest": "npx playwright test  --project=chromium",
+    "usertest": "npx playwright test  --project=chromium --grep @users",
+    "dictionarytest": "npx playwright test  --project=chromium --grep @dictionary",
+    "withreport": "npx playwright test --project=chromium --reporter=line,allure-playwright"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.23.1",
-    "allure-commandline": "^2.18.1",
+    "allure-commandline": "^1.4.22-1",
     "allure-playwright": "^2.0.0-beta.18",
-    "experimental-allure-playwright": "^0.0.3"
+    "experimental-allure-playwright": "^0.0.3",
+    "ts-node": "10.0.0"
   }
 }

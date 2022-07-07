@@ -1,0 +1,303 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/anush_av/Documents/JavaScript/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "name": "safari",
+        "testDir": "/home/anush_av/Documents/JavaScript/playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "/home/anush_av/Documents/JavaScript/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "name": "chromium",
+        "testDir": "/home/anush_av/Documents/JavaScript/playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "/home/anush_av/Documents/JavaScript/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "name": "mozilla",
+        "testDir": "/home/anush_av/Documents/JavaScript/playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "/home/anush_av/Documents/JavaScript/playwright/node_modules/experimental-allure-playwright/dist/index.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "/home/anush_av/Documents/JavaScript/playwright/tests",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.23.1",
+    "workers": 7,
+    "webServer": null,
+    "_globalOutputDir": "/home/anush_av/Documents/JavaScript/playwright",
+    "_configDir": "/home/anush_av/Documents/JavaScript/playwright",
+    "_testGroupsCount": 7
+  },
+  "suites": [
+    {
+      "title": "UItest.spec.js",
+      "file": "UItest.spec.js",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "@user Case 1: wrong username/pass",
+          "ok": true,
+          "tags": [
+            "user"
+          ],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 7401,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "UItest.spec.js",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "@user Case 2: User can log In",
+          "ok": true,
+          "tags": [
+            "user"
+          ],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 9036,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "UItest.spec.js",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "@dictionary Case 3: user can open dictionary",
+          "ok": true,
+          "tags": [
+            "dictionary"
+          ],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 7277,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "UItest.spec.js",
+          "line": 37,
+          "column": 1
+        },
+        {
+          "title": "@dictionary Case 4: user can filter dicionary page",
+          "ok": true,
+          "tags": [
+            "dictionary"
+          ],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 10631,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "UItest.spec.js",
+          "line": 52,
+          "column": 1
+        },
+        {
+          "title": "@users Case 5: Verify sign in user can add new post",
+          "ok": true,
+          "tags": [
+            "users"
+          ],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 13310,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "UItest.spec.js",
+          "line": 67,
+          "column": 1
+        },
+        {
+          "title": "@users Case 6: Verify  user can not add new post if not logged in",
+          "ok": true,
+          "tags": [
+            "users"
+          ],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 6126,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "UItest.spec.js",
+          "line": 81,
+          "column": 1
+        },
+        {
+          "title": "@searching Case 7: Verify user can make searching",
+          "ok": true,
+          "tags": [
+            "searching"
+          ],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 10711,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "UItest.spec.js",
+          "line": 94,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
