@@ -1,0 +1,16 @@
+{
+  "username" : "Anush",
+  "password" : "Test1234~",
+  "username_wrong" : "Test",
+  "password_wrong" : "Test",
+  "char_example" : "咖啡",
+  "char_eng" : "coffee",
+  "login_page_title": "Sign in",
+  "wrong_credentials_error" : "Login or password are incorrect.",
+  "user_profile_title" : "User profile", 
+  "add_post_text" : "Create a new post",
+  "add_post_error_m" : "You can not add new post",
+  "hsk_page_title" : "HSK words",
+  "search_value_test" : "chinese" 
+
+} 
